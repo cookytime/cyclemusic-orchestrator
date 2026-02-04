@@ -1,0 +1,19 @@
+[upload] watching /home/appuser/cyclemusic-orchestrator/captures
+[upload] 70hkUdHxJi9ILUwEDG1eNL starting
+[upload] 70hkUdHxJi9ILUwEDG1eNL starting
+[upload] 2SIGobCk9dSDwioPI1FOAA starting
+  ✗ Error updating track 69831ec6a09b09cf95f22f49: 404 Client Error: Not Found for url: https://app.base44.com/api/apps/69668795c37a96600dabcc5c/entities/Track/69831ec6a09b09cf95f22f49
+[upload] ✓ updated Base44 track_id=69831ec6a09b09cf95f22f49 (spotify_id=2SIGobCk9dSDwioPI1FOAA)
+[upload] done: updated=1 missing=0
+[upload] 2SIGobCk9dSDwioPI1FOAA done
+[upload] 1CtAzw53AIXKjAemxy4b1j starting
+  ✗ Error updating track 69831ec6507794f227328836: 404 Client Error: Not Found for url: https://app.base44.com/api/apps/69668795c37a96600dabcc5c/entities/Track/69831ec6507794f227328836
+[upload] ✓ updated Base44 track_id=69831ec6507794f227328836 (spotify_id=1CtAzw53AIXKjAemxy4b1j)
+[upload] done: updated=1 missing=0
+[upload] 1CtAzw53AIXKjAemxy4b1j done
+[upload] 1Jaah2tmN9Hv81A87KZ1MU starting
+  ✗ Error updating track 69831ec6917fd705fbaeb649: 404 Client Error: Not Found for url: https://app.base44.com/api/apps/69668795c37a96600dabcc5c/entities/Track/69831ec6917fd705fbaeb649
+[upload] ✓ updated Base44 track_id=69831ec6917fd705fbaeb649 (spotify_id=1Jaah2tmN9Hv81A87KZ1MU)
+[upload] done: updated=1 missing=0
+[upload] 1Jaah2tmN9Hv81A87KZ1MU done
+[upload] 70hkUdHxJi9ILUwEDG1eNL starting

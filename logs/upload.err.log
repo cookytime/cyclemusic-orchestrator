@@ -1,0 +1,20 @@
+Setting up watches.
+Watches established.
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/config.py", line 23, in load_config
+    poll_seconds=int(os.getenv("POLL_SECONDS", "60")),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.2'
+[upload] 70hkUdHxJi9ILUwEDG1eNL FAILED
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/config.py", line 23, in load_config
+    poll_seconds=int(os.getenv("POLL_SECONDS", "60")),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '0.2'
+[upload] 70hkUdHxJi9ILUwEDG1eNL FAILED
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/home/appuser/cyclemusic-orchestrator/captures/70hkUdHxJi9ILUwEDG1eNL.choreography.json'
+[upload] 70hkUdHxJi9ILUwEDG1eNL FAILED

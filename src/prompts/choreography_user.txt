@@ -1,0 +1,20 @@
+Create a Track JSON object that matches the provided Track schema exactly.
+
+IMPORTANT:
+- Return ONLY valid JSON.
+- Do NOT include explanations, markdown, or extra text.
+- Do NOT include any keys not defined in the Track schema.
+
+Track metadata (JSON):
+{{TRACK_METADATA_JSON}}
+
+Music map (JSON):
+{{MUSIC_MAP_JSON}}
+
+Allowed choreography timestamps:
+{{ALLOWED_BLOCK_STARTS_JSON}}
+
+Rider settings:
+{{RIDER_SETTINGS_JSON}}
+
+Return ONLY the Track JSON object.
