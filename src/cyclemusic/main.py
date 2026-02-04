@@ -29,13 +29,15 @@ def main() -> int:
 
     log.info("scheduler starting (capture/analyze/upload are external services)")
 
+
+    from cyclemusic.steps.step3_capture import capture_tracks
+
     while not _shutdown:
         try:
             missing_tracks = fetch_missing(cfg)
-
             if not missing_tracks:
                 log.info("no missing choreography tracks; sleeping %ss", cfg.poll_seconds)
-                sleep_interruptible(5)
+                sleep_interruptible(cfg.poll_seconds)
                 continue
 
             log.info("found %d tracks missing choreography", len(missing_tracks))
@@ -43,10 +45,10 @@ def main() -> int:
             playlist_id = sync_playlist(cfg, missing_tracks)
             log.info("synced spotify processing playlist %s", playlist_id)
 
-            # Nothing else to do here—capture service will record when you press play,
-            # analyze/upload services will process files as they appear.
-            log.info("READY: press play on the processing playlist. Rechecking in %ss", cfg.poll_seconds)
-            sleep_interruptible(5)
+            # Step 3: Capture tracks
+            log.info("starting capture of tracks...")
+            capture_tracks(cfg, playlist_id, missing_tracks)
+            log.info("capture complete")
 
         except Exception:
             log.exception("scheduler loop failed; retrying soon")

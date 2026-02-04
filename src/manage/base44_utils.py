@@ -88,7 +88,14 @@ def update_track_choreography(track_id: str, choreography):
     If your API uses a different update route, tell me the correct one and I’ll adjust.
     """
     try:
-        payload = {"choreography": choreography}
+        # Send all fields directly, no 'track' wrapper
+        if isinstance(choreography, dict) and "track" in choreography and len(choreography) == 1:
+            payload = choreography["track"]
+        else:
+            payload = choreography
+        import json as _json
+        print(f"[DEBUG] update_track_choreography: PUT apps/{APP_ID}/entities/{ENTITY_TYPE}/{track_id}")
+        print(f"[DEBUG] Payload: {_json.dumps(payload, indent=2)}")
         return make_api_request(
             f"apps/{APP_ID}/entities/{ENTITY_TYPE}/{track_id}",
             method="PUT",
@@ -96,6 +103,8 @@ def update_track_choreography(track_id: str, choreography):
         )
     except requests.exceptions.RequestException as e:
         print(f"  ✗ Error updating track {track_id}: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"[DEBUG] API error response: {e.response.text}")
         return None
 
 

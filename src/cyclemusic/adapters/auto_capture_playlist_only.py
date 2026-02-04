@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+
+# --- New version: librespot pipe integration ---
 import json
 import os
 import re
@@ -12,28 +14,15 @@ from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
+from manage.spotify_api import refresh_access_token, spotify_get_currently_playing, spotify_get
 
-# Repo root is .../src; we assume PYTHONPATH=src when running
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(PROJECT_ROOT / ".env", override=False)
 
-from manage.spotify_api import refresh_access_token, spotify_get_currently_playing, spotify_get
-
-
-# ===== CONFIG =====
-PULSE_MONITOR_SOURCE = os.environ.get("PULSE_MONITOR_SOURCE", "librespot_sink.monitor")
-
-# Where to save captures
 OUT_DIR = Path(os.environ.get("CAPTURES_DIR", str(PROJECT_ROOT / "captures")))
 OUT_DIR.mkdir(parents=True, exist_ok=True)
-
-# Poll interval for Spotify currently-playing
 POLL_SECONDS = float(os.environ.get("POLL_SECONDS", "1.0"))
-
-# Record a tiny bit extra so we don't cut off the tail
 PAD_SECONDS = float(os.environ.get("PAD_SECONDS", "1.0"))
-
-# Playlist can be URL or ID; in orchestrator we set SPOTIFY_PLAYLIST_ID
 PLAYLIST_ID_OR_URL = os.environ.get("SPOTIFY_PLAYLIST_ID") or os.environ.get("SPOTIFY_PLAYLIST_URL")
 if not PLAYLIST_ID_OR_URL:
     raise SystemExit("Missing SPOTIFY_PLAYLIST_ID (or SPOTIFY_PLAYLIST_URL)")
@@ -48,12 +37,6 @@ def extract_playlist_id(value: str) -> str:
 
 PLAYLIST_ID = extract_playlist_id(PLAYLIST_ID_OR_URL)
 PLAYLIST_URI = f"spotify:playlist:{PLAYLIST_ID}"
-
-_shutdown = False
-
-def _stop(*_):
-    global _shutdown
-    _shutdown = True
 
 def fetch_playlist_track_ids(token: str, playlist_id: str) -> set[str]:
     ids: set[str] = set()
@@ -95,87 +78,89 @@ def save_track_metadata(track_item: dict, metadata_path: Path) -> None:
     }
     metadata_path.write_text(json.dumps(meta, indent=2))
 
-def start_ffmpeg(wav_path: Path, seconds: float) -> subprocess.Popen:
-    cmd = [
+def start_librespot_pipe(track_id: str, wav_path: Path, duration_s: float, device_name: str = "CycleMusicLibrespot"):
+    # Start librespot with pipe backend and ffmpeg to write to wav
+    cmd_librespot = [
+        "librespot",
+        "--backend", "pipe",
+        "--name", device_name,
+        "--bitrate", "320",
+        # Add more options as needed
+    ]
+    cmd_ffmpeg = [
         "ffmpeg",
         "-hide_banner",
         "-loglevel", "error",
-        "-f", "pulse",
-        "-i", PULSE_MONITOR_SOURCE,
-        "-ac", "1",
+        "-f", "s16le",
         "-ar", "44100",
-        "-t", f"{max(1.0, seconds):.2f}",
+        "-ac", "2",
+        "-t", f"{duration_s:.2f}",
         "-y",
+        "-i", "-",
         str(wav_path),
     ]
-    return subprocess.Popen(cmd)
+    # Start librespot and ffmpeg, piping librespot's stdout to ffmpeg's stdin
+    librespot_proc = subprocess.Popen(cmd_librespot, stdout=subprocess.PIPE)
+    ffmpeg_proc = subprocess.Popen(cmd_ffmpeg, stdin=librespot_proc.stdout)
+    return librespot_proc, ffmpeg_proc
 
 def stop_proc(proc: subprocess.Popen | None) -> None:
     if not proc:
         return
     if proc.poll() is None:
-        proc.send_signal(signal.SIGINT)
+        proc.terminate()
         try:
             proc.wait(timeout=5)
         except subprocess.TimeoutExpired:
             proc.kill()
 
 def main() -> int:
-    signal.signal(signal.SIGTERM, _stop)
-    signal.signal(signal.SIGINT, _stop)
-
-    print(f"[capture] playlist={PLAYLIST_ID} monitor={PULSE_MONITOR_SOURCE} out={OUT_DIR}", flush=True)
-    # Warm up ffmpeg / pulse pipeline (helps avoid missing the first track intro)
-    try:
-        warmup = OUT_DIR / ".warmup.wav"
-        proc = subprocess.Popen([
-            "ffmpeg", "-hide_banner", "-loglevel", "error",
-            "-f", "pulse", "-i", PULSE_MONITOR_SOURCE,
-            "-ac", "1", "-ar", "44100",
-            "-t", "2.0",
-            "-y", str(warmup),
-        ])
-        proc.wait(timeout=5)
-        if warmup.exists():
-            warmup.unlink()
-        print("[capture] warmup complete", flush=True)
-    except Exception as e:
-        print(f"[capture] warmup skipped: {e}", flush=True)
-
     client_id = os.environ["SPOTIFY_CLIENT_ID"]
     client_secret = os.environ["SPOTIFY_CLIENT_SECRET"]
     refresh_token = os.environ["SPOTIFY_REFRESH_TOKEN"]
 
+
     token = refresh_access_token(client_id, client_secret, refresh_token)
 
+    # Fetch playlist tracks and print details
     playlist_track_ids = fetch_playlist_track_ids(token, PLAYLIST_ID)
     print(f"[capture] playlist tracks cached: {len(playlist_track_ids)}", flush=True)
+    # ...existing code...
 
     current_track_id: str | None = None
+    librespot_proc: subprocess.Popen | None = None
     ffmpeg_proc: subprocess.Popen | None = None
     current_wav: Path | None = None
 
-    while not _shutdown:
+    while True:
         payload = spotify_get_currently_playing(token)
+        ctx_uri = None
+        track_id = None
+        if payload:
+            ctx = payload.get("context") or {}
+            ctx_uri = ctx.get("uri")
+            item = payload.get("item") or {}
+            track_id = item.get("id")
+        # ...existing code...
+
         if not payload or not payload.get("is_playing"):
+            stop_proc(librespot_proc)
             stop_proc(ffmpeg_proc)
+            librespot_proc = None
             ffmpeg_proc = None
             current_track_id = None
             time.sleep(POLL_SECONDS)
             continue
 
-        item = payload.get("item") or {}
-        track_id = item.get("id")
         if not track_id:
             time.sleep(POLL_SECONDS)
             continue
 
-        ctx = payload.get("context") or {}
-        ctx_uri = ctx.get("uri")
-
         # Gate 1: must be in our playlist context
         if ctx_uri != PLAYLIST_URI:
+            stop_proc(librespot_proc)
             stop_proc(ffmpeg_proc)
+            librespot_proc = None
             ffmpeg_proc = None
             current_track_id = None
             time.sleep(POLL_SECONDS)
@@ -190,20 +175,21 @@ def main() -> int:
         duration_ms = item.get("duration_ms") or 0
         remaining_s = max(0.0, (duration_ms - progress_ms) / 1000.0) + PAD_SECONDS
 
-        # If track changed, start a new capture
+        # If track changed, start a new librespot/ffmpeg pipe
         if track_id != current_track_id:
-            stop_proc(ffmpeg_proc)
-
             name = item.get("name", "Unknown Track")
             artists = ", ".join(a.get("name","") for a in (item.get("artists") or []) if a.get("name")) or "Unknown Artist"
             print(f"[capture] ▶ {artists} — {name}  (~{remaining_s:.1f}s)", flush=True)
 
-            # Write metadata + start ffmpeg
+            stop_proc(librespot_proc)
+            stop_proc(ffmpeg_proc)
+
+            # Write metadata + start librespot/ffmpeg
             metadata_path = OUT_DIR / f"{track_id}.metadata.json"
             wav_path = OUT_DIR / f"{track_id}.wav"
 
             save_track_metadata(item, metadata_path)
-            ffmpeg_proc = start_ffmpeg(wav_path, remaining_s)
+            librespot_proc, ffmpeg_proc = start_librespot_pipe(track_id, wav_path, remaining_s)
 
             current_track_id = track_id
             current_wav = wav_path
@@ -214,10 +200,12 @@ def main() -> int:
             if current_wav and current_wav.exists() and current_wav.stat().st_size < 100_000:
                 print(f"[capture] ⚠️ tiny capture: {current_wav.name}", flush=True)
             ffmpeg_proc = None
+            librespot_proc = None
 
         time.sleep(POLL_SECONDS)
 
     print("[capture] stopping", flush=True)
+    stop_proc(librespot_proc)
     stop_proc(ffmpeg_proc)
     return 0
 

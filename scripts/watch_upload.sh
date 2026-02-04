@@ -7,6 +7,7 @@ CAPDIR="${CAPTURES_DIR:-$REPO/captures}"
 cd "$REPO"
 . "$REPO/.venv/bin/activate"
 export PYTHONPATH="$REPO/src"
+source "$REPO/.env"
 
 process_one() {
   choreo="$1"

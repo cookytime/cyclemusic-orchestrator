@@ -21,13 +21,26 @@ def make_api_request(api_path, method="GET", data=None, params=None):
         "Accept": "application/json",
     }
 
-    method = method.upper()
-    if method == "GET":
-        resp = requests.get(url, headers=headers, params=params, timeout=30)
-    else:
-        resp = requests.request(method, url, headers=headers, json=data, params=params, timeout=30)
+    print(f"[DEBUG] API {method} {url}")
+    if data is not None:
+        import json as _json
+        print(f"[DEBUG] Payload: {_json.dumps(data, indent=2)}")
+    if params:
+        print(f"[DEBUG] Params: {params}")
 
-    resp.raise_for_status()
+    method = method.upper()
+    try:
+        if method == "GET":
+            resp = requests.get(url, headers=headers, params=params, timeout=30)
+        else:
+            resp = requests.request(method, url, headers=headers, json=data, params=params, timeout=30)
+        resp.raise_for_status()
+    except requests.exceptions.RequestException as e:
+        print(f"[DEBUG] API error: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"[DEBUG] API error response: {e.response.text}")
+        raise
+
     if not resp.content:
         return None
     return resp.json()
@@ -67,18 +80,26 @@ def update_track_choreography(track_id: str, choreography):
     """
     Update a Track entity with generated choreography.
 
-    Assumes PATCH:
+    NOTE: This assumes Base44 supports PATCH on:
       apps/{APP_ID}/entities/Track/{track_id}
-
-    If your Base44 update route differs (PUT /update /actions), tell me and we’ll adjust.
+    If your API uses a different update route, tell me the correct one and I’ll adjust.
     """
-    payload = {"choreography": choreography}
     try:
+        # Send all fields directly, no 'track' wrapper
+        if isinstance(choreography, dict) and "track" in choreography and len(choreography) == 1:
+            payload = choreography["track"]
+        else:
+            payload = choreography
+        print(f"[DEBUG] update_track_choreography: PUT apps/{APP_ID}/entities/{ENTITY_TYPE}/{track_id}")
+        import json as _json
+        print(f"[DEBUG] Payload: {_json.dumps(payload, indent=2)}")
         return make_api_request(
             f"apps/{APP_ID}/entities/{ENTITY_TYPE}/{track_id}",
-            method="PATCH",
+            method="PUT",
             data=payload,
         )
     except requests.exceptions.RequestException as e:
         print(f"  ✗ Error updating track {track_id}: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"[DEBUG] API error response: {e.response.text}")
         return None
