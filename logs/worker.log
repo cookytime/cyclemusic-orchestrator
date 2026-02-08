@@ -521,3 +521,7 @@ AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'ca
 2026-02-08 13:02:40,172 INFO cyclemusic: found 25 tracks missing choreography
 2026-02-08 13:02:40,593 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
 2026-02-08 13:02:40,593 INFO cyclemusic: starting capture of tracks...
+2026-02-08 14:28:30,604 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 14:28:30,804 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 14:28:31,175 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 14:28:31,176 INFO cyclemusic: starting capture of tracks...

@@ -77,6 +77,9 @@ POLL_SECONDS = float(os.environ.get("POLL_SECONDS", "1.0"))
 # Record a tiny bit extra so we don't cut off the tail
 PAD_SECONDS = float(os.environ.get("PAD_SECONDS", "1.0"))
 
+# Minimum remaining track duration to start a capture (avoid capturing tail-end transfers)
+MIN_CAPTURE_SECONDS = float(os.environ.get("MIN_CAPTURE_SECONDS", "30.0"))
+
 # Path to your track analyzer script
 ANALYZE_SCRIPT = PROJECT_ROOT / "analyze" / "analyze_track.py"
 TRACKUPDATE_SCRIPT = PROJECT_ROOT / "manage" / "trackupdate.py"
@@ -474,7 +477,21 @@ def main():
             # Track timing
             progress_ms = payload.get("progress_ms") or 0
             duration_ms = item.get("duration_ms") or 0
-            remaining_s = max(0.0, (duration_ms - progress_ms) / 1000.0) + PAD_SECONDS
+            remaining_s = max(0.0, (duration_ms - progress_ms) / 1000.0)
+
+            # Skip tracks that are nearly finished (likely mid-track transfers)
+            if remaining_s < MIN_CAPTURE_SECONDS:
+                # Don't start capture for tracks with insufficient time
+                if ffmpeg_proc and ffmpeg_proc.poll() is None:
+                    stop_proc(ffmpeg_proc)
+                ffmpeg_proc = None
+                current_wav = None
+                current_track_id = None
+                current_item = None
+                time.sleep(POLL_SECONDS)
+                continue
+
+            capture_duration = remaining_s + PAD_SECONDS
 
             name = item.get("name", "Unknown Track")
             artists = (
@@ -498,13 +515,13 @@ def main():
                 metadata_path = OUT_DIR / f"{track_id}.metadata.json"
 
                 print(f"▶ Capturing (playlist-only): {artists} — {name}")
-                print(f"  Remaining ~{remaining_s:.1f}s → {current_wav.name}")
+                print(f"  Remaining ~{capture_duration:.1f}s → {current_wav.name}")
 
                 # Save metadata
                 save_track_metadata(item, metadata_path)
                 print(f"  ✓ Metadata saved: {metadata_path.name}")
 
-                ffmpeg_proc = start_ffmpeg(current_wav, remaining_s)
+                ffmpeg_proc = start_ffmpeg(current_wav, capture_duration)
                 current_track_id = track_id
                 current_item = item
 
@@ -633,14 +650,23 @@ def capture_playlist_tracks(playlist_id_or_url: str, captures_dir: str | os.Path
             # Compute remaining seconds for this track
             progress_ms = payload.get("progress_ms") or 0
             duration_ms = item.get("duration_ms") or 0
-            remaining_s = max(0.0, (duration_ms - progress_ms) / 1000.0) + PAD_SECONDS
+            remaining_s = max(0.0, (duration_ms - progress_ms) / 1000.0)
 
-            print(f"Capturing track {track_id} ({item.get('name')}) — ~{remaining_s:.1f}s")
+            # Skip tracks with less than MIN_CAPTURE_SECONDS remaining (mid-track transfers)
+            if remaining_s < MIN_CAPTURE_SECONDS:
+                print(f"⏭ Skipping {track_id} ({item.get('name')}) — only {remaining_s:.1f}s left (min {MIN_CAPTURE_SECONDS}s)")
+                # Mark as skipped so we don't keep retrying
+                remaining.discard(track_id)
+                time.sleep(POLL_SECONDS)
+                continue
+
+            capture_duration = remaining_s + PAD_SECONDS
+            print(f"Capturing track {track_id} ({item.get('name')}) — ~{capture_duration:.1f}s")
 
             tmp_wav = TMP_DIR / f"{track_id}.wav"
             metadata_path = OUT_DIR / f"{track_id}.metadata.json"
             save_track_metadata(item, metadata_path)
-            ffmpeg_proc = start_ffmpeg(tmp_wav, remaining_s)
+            ffmpeg_proc = start_ffmpeg(tmp_wav, capture_duration)
 
             # Wait for ffmpeg to finish (it exits after -t)
             try:
