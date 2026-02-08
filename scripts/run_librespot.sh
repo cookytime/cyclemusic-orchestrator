@@ -21,3 +21,4 @@ exec "${LIBRESPOT_BIN}" \
     -i - \
     -f null \
     -
+  --bitrate 320
