@@ -15,10 +15,11 @@ exec "${LIBRESPOT_BIN}" \
   | ffmpeg \
     -hide_banner \
     -loglevel error \
+    -fflags +discardcorrupt \
+    -err_detect ignore_err \
     -f s16le \
     -ar 44100 \
     -ac 2 \
     -i - \
     -f null \
     -
-  --bitrate 320
