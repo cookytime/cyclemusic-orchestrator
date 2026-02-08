@@ -1,3 +1,133 @@
 [upload] watching /home/appuser/cyclemusic-orchestrator/captures
 [upload] watching /home/appuser/cyclemusic-orchestrator/captures
 [upload] watching /home/appuser/cyclemusic-orchestrator/captures
+[upload] watching /home/appuser/cyclemusic-orchestrator/captures
+[upload] 4RCWB3V8V0dignt99LZ8vH starting
+[DEBUG] API GET https://app.base44.com/api/apps/69668795c37a96600dabcc5c/entities/Track
+[DEBUG] update_track_choreography: PUT apps/69668795c37a96600dabcc5c/entities/Track/698781aa54041583db8fa2dc
+[DEBUG] Payload: {
+  "title": "Hey There Delilah",
+  "artist": "Plain White T's",
+  "album": "All That We Needed",
+  "spotify_id": "4RCWB3V8V0dignt99LZ8vH",
+  "spotify_album_art": "https://i.scdn.co/image/ab67616d0000b273beae6e69d6505fd379ef3081",
+  "spotify_url": "https://open.spotify.com/track/4RCWB3V8V0dignt99LZ8vH",
+  "duration_minutes": 3.83,
+  "bpm": 103,
+  "intensity": "medium",
+  "focus_area": "endurance",
+  "track_type": "Rhythm Ride",
+  "position": "Seated",
+  "resistance_min": 1,
+  "resistance_max": 3,
+  "cadence_min": 80,
+  "cadence_max": 100,
+  "choreography": [
+    {
+      "timestamp": "0:00",
+      "exercise": "flat",
+      "resistance": "Light",
+      "gear": 2,
+      "position": "Seated Climb",
+      "rpmMin": 80,
+      "rpmMax": 100,
+      "note": "Begin with light resistance for warmup.",
+      "duration_seconds": 90
+    },
+    {
+      "timestamp": "1:30",
+      "exercise": "flat",
+      "resistance": "Moderate",
+      "gear": 4,
+      "position": "Seated Climb",
+      "rpmMin": 80,
+      "rpmMax": 100,
+      "note": "Increase resistance slightly.",
+      "duration_seconds": 60
+    },
+    {
+      "timestamp": "2:30",
+      "exercise": "climb",
+      "resistance": "Heavy",
+      "gear": 5,
+      "position": "Seated Climb",
+      "rpmMin": 60,
+      "rpmMax": 80,
+      "note": "Engage in a climb posture.",
+      "duration_seconds": 80
+    }
+  ],
+  "cues": [
+    "Keep your core engaged",
+    "Breathe deeply",
+    "Focus on your cadence",
+    "Embrace the rhythm",
+    "You got this!"
+  ],
+  "notes": "This track is designed for steady-state pacing with a few climbs to elevate heart rate."
+}
+[DEBUG] API PUT https://app.base44.com/api/apps/69668795c37a96600dabcc5c/entities/Track/698781aa54041583db8fa2dc
+[DEBUG] Payload: {
+  "title": "Hey There Delilah",
+  "artist": "Plain White T's",
+  "album": "All That We Needed",
+  "spotify_id": "4RCWB3V8V0dignt99LZ8vH",
+  "spotify_album_art": "https://i.scdn.co/image/ab67616d0000b273beae6e69d6505fd379ef3081",
+  "spotify_url": "https://open.spotify.com/track/4RCWB3V8V0dignt99LZ8vH",
+  "duration_minutes": 3.83,
+  "bpm": 103,
+  "intensity": "medium",
+  "focus_area": "endurance",
+  "track_type": "Rhythm Ride",
+  "position": "Seated",
+  "resistance_min": 1,
+  "resistance_max": 3,
+  "cadence_min": 80,
+  "cadence_max": 100,
+  "choreography": [
+    {
+      "timestamp": "0:00",
+      "exercise": "flat",
+      "resistance": "Light",
+      "gear": 2,
+      "position": "Seated Climb",
+      "rpmMin": 80,
+      "rpmMax": 100,
+      "note": "Begin with light resistance for warmup.",
+      "duration_seconds": 90
+    },
+    {
+      "timestamp": "1:30",
+      "exercise": "flat",
+      "resistance": "Moderate",
+      "gear": 4,
+      "position": "Seated Climb",
+      "rpmMin": 80,
+      "rpmMax": 100,
+      "note": "Increase resistance slightly.",
+      "duration_seconds": 60
+    },
+    {
+      "timestamp": "2:30",
+      "exercise": "climb",
+      "resistance": "Heavy",
+      "gear": 5,
+      "position": "Seated Climb",
+      "rpmMin": 60,
+      "rpmMax": 80,
+      "note": "Engage in a climb posture.",
+      "duration_seconds": 80
+    }
+  ],
+  "cues": [
+    "Keep your core engaged",
+    "Breathe deeply",
+    "Focus on your cadence",
+    "Embrace the rhythm",
+    "You got this!"
+  ],
+  "notes": "This track is designed for steady-state pacing with a few climbs to elevate heart rate."
+}
+[upload] ✓ updated Base44 track_id=698781aa54041583db8fa2dc (spotify_id=4RCWB3V8V0dignt99LZ8vH)
+[upload] done: updated=1 missing=0
+[upload] 4RCWB3V8V0dignt99LZ8vH done

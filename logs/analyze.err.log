@@ -263,3 +263,68 @@ Traceback (most recent call last):
     raise ValueError(
 ValueError: Found array with 1 sample(s) (shape=(1, 120)) while a minimum of 2 is required by AgglomerativeClustering.
 [analyze] 2H1047e0oMSj10dgp7p2VG FAILED
+/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py:430: UserWarning: PySoundFile failed. Trying audioread instead.
+  y_raw, self.sr = librosa.load(self.file_path, sr=self.sr, mono=True)
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening '/home/appuser/cyclemusic-orchestrator/captures/7yq4Qj7cqayVTp3FF9CWbm.wav': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 820, in <module>
+    result = analyzer.analyze()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 767, in analyze
+    self.load_audio()
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 430, in load_audio
+    y_raw, self.sr = librosa.load(self.file_path, sr=self.sr, mono=True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/decorator.py", line 235, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/util/decorators.py", line 63, in __wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/audioread/__init__.py", line 126, in audio_open
+    return BackendClass(path)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/audioread/rawread.py", line 62, in __init__
+    self._file = aifc.open(self._fh)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/aifc.py", line 954, in open
+    return Aifc_read(f)
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/aifc.py", line 364, in __init__
+    self.initfp(f)
+  File "/usr/lib/python3.12/aifc.py", line 320, in initfp
+    chunk = Chunk(file)
+            ^^^^^^^^^^^
+  File "/usr/lib/python3.12/chunk.py", line 67, in __init__
+    raise EOFError
+EOFError
+[analyze] 7yq4Qj7cqayVTp3FF9CWbm FAILED
+Setting up watches.
+Watches established.
