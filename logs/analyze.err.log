@@ -1,4 +1,265 @@
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=2048 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/pitch.py:103: UserWarning: Trying to estimate tuning from empty frequency set.
+  return pitch_tuning(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=1024 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3065: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3066: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 1014, in <module>
+    result = analyzer.analyze()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 985, in analyze
+    "timeline": self.get_segmentation(),
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 719, in get_segmentation
+    bounds_frames = librosa.segment.agglomerative(chroma_stack, k=8)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/segment.py", line 1134, in agglomerative
+    clusterer.fit(data)
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/cluster/_agglomerative.py", line 992, in fit
+    X = validate_data(self, X, ensure_min_samples=2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2902, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1097, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 120)) while a minimum of 2 is required by AgglomerativeClustering.
+[analyze] 2H1047e0oMSj10dgp7p2VG FAILED
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=2048 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/pitch.py:103: UserWarning: Trying to estimate tuning from empty frequency set.
+  return pitch_tuning(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=1024 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3065: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3066: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 1014, in <module>
+    result = analyzer.analyze()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 985, in analyze
+    "timeline": self.get_segmentation(),
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 719, in get_segmentation
+    bounds_frames = librosa.segment.agglomerative(chroma_stack, k=8)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/segment.py", line 1134, in agglomerative
+    clusterer.fit(data)
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/cluster/_agglomerative.py", line 992, in fit
+    X = validate_data(self, X, ensure_min_samples=2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2902, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1097, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 120)) while a minimum of 2 is required by AgglomerativeClustering.
+[analyze] 2WfaOiMkCvy7F5fcp2zZ8L FAILED
 Setting up watches.
 Watches established.
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=2048 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/pitch.py:103: UserWarning: Trying to estimate tuning from empty frequency set.
+  return pitch_tuning(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=1024 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3065: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3066: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 1014, in <module>
+    result = analyzer.analyze()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 985, in analyze
+    "timeline": self.get_segmentation(),
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 719, in get_segmentation
+    bounds_frames = librosa.segment.agglomerative(chroma_stack, k=8)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/segment.py", line 1134, in agglomerative
+    clusterer.fit(data)
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/cluster/_agglomerative.py", line 992, in fit
+    X = validate_data(self, X, ensure_min_samples=2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2902, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1097, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 120)) while a minimum of 2 is required by AgglomerativeClustering.
+[analyze] 2H1047e0oMSj10dgp7p2VG FAILED
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=2048 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/pitch.py:103: UserWarning: Trying to estimate tuning from empty frequency set.
+  return pitch_tuning(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=1024 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3065: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3066: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 1014, in <module>
+    result = analyzer.analyze()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 985, in analyze
+    "timeline": self.get_segmentation(),
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 719, in get_segmentation
+    bounds_frames = librosa.segment.agglomerative(chroma_stack, k=8)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/segment.py", line 1134, in agglomerative
+    clusterer.fit(data)
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/cluster/_agglomerative.py", line 992, in fit
+    X = validate_data(self, X, ensure_min_samples=2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2902, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1097, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 120)) while a minimum of 2 is required by AgglomerativeClustering.
+[analyze] 2WfaOiMkCvy7F5fcp2zZ8L FAILED
 Setting up watches.
 Watches established.
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=2048 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/pitch.py:103: UserWarning: Trying to estimate tuning from empty frequency set.
+  return pitch_tuning(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=1024 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3065: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3066: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 1014, in <module>
+    result = analyzer.analyze()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 985, in analyze
+    "timeline": self.get_segmentation(),
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 719, in get_segmentation
+    bounds_frames = librosa.segment.agglomerative(chroma_stack, k=8)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/segment.py", line 1134, in agglomerative
+    clusterer.fit(data)
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/cluster/_agglomerative.py", line 992, in fit
+    X = validate_data(self, X, ensure_min_samples=2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2902, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1097, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 120)) while a minimum of 2 is required by AgglomerativeClustering.
+[analyze] 2H1047e0oMSj10dgp7p2VG FAILED
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=2048 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/pitch.py:103: UserWarning: Trying to estimate tuning from empty frequency set.
+  return pitch_tuning(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=1024 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3065: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3066: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 1014, in <module>
+    result = analyzer.analyze()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 985, in analyze
+    "timeline": self.get_segmentation(),
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 719, in get_segmentation
+    bounds_frames = librosa.segment.agglomerative(chroma_stack, k=8)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/segment.py", line 1134, in agglomerative
+    clusterer.fit(data)
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/cluster/_agglomerative.py", line 992, in fit
+    X = validate_data(self, X, ensure_min_samples=2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2902, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1097, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 120)) while a minimum of 2 is required by AgglomerativeClustering.
+[analyze] 2WfaOiMkCvy7F5fcp2zZ8L FAILED
+Setting up watches.
+Watches established.
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=2048 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/pitch.py:103: UserWarning: Trying to estimate tuning from empty frequency set.
+  return pitch_tuning(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/core/spectrum.py:266: UserWarning: n_fft=1024 is too large for input signal of length=0
+  warnings.warn(
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3065: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3066: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 1014, in <module>
+    result = analyzer.analyze()
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 985, in analyze
+    "timeline": self.get_segmentation(),
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py", line 719, in get_segmentation
+    bounds_frames = librosa.segment.agglomerative(chroma_stack, k=8)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/librosa/segment.py", line 1134, in agglomerative
+    clusterer.fit(data)
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/cluster/_agglomerative.py", line 992, in fit
+    X = validate_data(self, X, ensure_min_samples=2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2902, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1097, in check_array
+    raise ValueError(
+ValueError: Found array with 1 sample(s) (shape=(1, 120)) while a minimum of 2 is required by AgglomerativeClustering.
+[analyze] 2H1047e0oMSj10dgp7p2VG FAILED

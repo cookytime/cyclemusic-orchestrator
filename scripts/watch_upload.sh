@@ -1,13 +1,19 @@
 #!/bin/sh
 set -eu
 
-REPO="/home/appuser/cyclemusic-orchestrator"
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
 CAPDIR="${CAPTURES_DIR:-$REPO/captures}"
 
 cd "$REPO"
-. "$REPO/.venv/bin/activate"
+if [ -f "$REPO/.venv/bin/activate" ]; then
+  # shellcheck disable=SC1091
+  . "$REPO/.venv/bin/activate"
+fi
 export PYTHONPATH="$REPO/src"
-source "$REPO/.env"
+if [ -f "$REPO/.env" ]; then
+  # shellcheck disable=SC1091
+  . "$REPO/.env"
+fi
 
 process_one() {
   choreo="$1"

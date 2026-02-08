@@ -1,1248 +1,503 @@
-2026-02-04 03:43:09,512 INFO cyclemusic: worker starting
-2026-02-04 03:43:09,512 ERROR cyclemusic: loop failed; retrying soon
+2026-02-08 11:30:43,124 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 11:30:43,313 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:30:43,846 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:30:43,847 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:33:28,611 INFO cyclemusic: capture complete
+2026-02-08 11:33:28,752 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:33:29,137 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:33:29,137 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:35:24,663 INFO cyclemusic: capture complete
+2026-02-08 11:35:25,485 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:35:25,865 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:35:25,865 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:35:35,256 INFO cyclemusic: capture complete
+2026-02-08 11:35:35,391 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:35:35,768 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:35:35,768 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:36:14,219 INFO cyclemusic: capture complete
+2026-02-08 11:36:14,377 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:36:14,736 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:36:14,736 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:36:39,523 INFO cyclemusic: capture complete
+2026-02-08 11:36:39,630 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:36:39,953 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:36:39,954 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:37:02,055 INFO cyclemusic: capture complete
+2026-02-08 11:37:02,175 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:37:02,807 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:37:02,807 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:37:34,675 INFO cyclemusic: capture complete
+2026-02-08 11:37:34,871 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:37:36,769 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:37:36,769 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:40:52,078 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 11:40:52,219 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:40:52,566 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:40:52,566 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:41:39,533 INFO cyclemusic: capture complete
+2026-02-08 11:43:16,842 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 11:43:17,058 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:43:18,010 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:43:18,010 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:49:48,784 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 11:49:48,953 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:49:49,286 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:49:49,286 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:49:51,180 INFO cyclemusic: capture complete
+2026-02-08 11:49:51,310 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:49:51,742 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:49:51,742 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:49:58,502 INFO cyclemusic: capture complete
+2026-02-08 11:49:58,614 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:50:12,910 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 11:50:13,022 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:50:13,410 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:50:13,411 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:52:12,360 INFO cyclemusic: capture complete
+2026-02-08 11:52:12,754 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:52:13,198 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:52:13,198 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:53:28,507 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 11:53:28,648 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:53:29,012 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:53:29,013 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:56:36,436 INFO cyclemusic: capture complete
+2026-02-08 11:56:36,556 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:56:36,893 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:56:36,893 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:56:40,945 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 11:56:41,085 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:56:41,403 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:56:41,403 INFO cyclemusic: starting capture of tracks...
+2026-02-08 11:58:53,535 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 11:58:53,712 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 11:58:54,048 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 11:58:54,048 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:00:20,776 INFO cyclemusic: capture complete
+2026-02-08 12:00:20,909 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:00:23,757 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:00:23,881 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:00:24,202 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:00:24,202 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:06:47,004 INFO cyclemusic: capture complete
+2026-02-08 12:06:47,165 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:06:47,605 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:06:47,606 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:07:03,455 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:07:03,577 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:07:04,061 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:07:04,061 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:08:41,594 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:08:41,717 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:08:42,238 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:08:42,238 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:09:05,059 INFO cyclemusic: capture complete
+2026-02-08 12:09:05,202 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:09:05,517 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:09:05,518 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:09:13,832 INFO cyclemusic: capture complete
+2026-02-08 12:09:13,958 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:09:14,386 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:09:14,387 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:09:17,508 INFO cyclemusic: capture complete
+2026-02-08 12:09:17,637 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:09:18,114 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:09:18,114 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:09:21,548 INFO cyclemusic: capture complete
+2026-02-08 12:09:21,759 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:09:21,854 INFO cyclemusic: capture complete
+2026-02-08 12:09:21,979 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:09:22,089 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:09:22,089 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:09:36,815 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:09:36,977 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:09:37,334 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:09:37,334 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:09:51,098 INFO cyclemusic: capture complete
+2026-02-08 12:09:51,238 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:09:51,640 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:09:51,640 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:10:58,313 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:10:58,506 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:10:58,889 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:10:58,889 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:11:23,907 INFO cyclemusic: capture complete
+2026-02-08 12:11:24,031 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:11:24,643 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:11:24,643 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:11:30,976 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:11:31,105 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:11:31,511 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:11:31,512 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:11:45,457 INFO cyclemusic: capture complete
+2026-02-08 12:11:45,573 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:11:46,023 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:11:46,023 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:11:52,978 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:11:53,096 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:11:53,498 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:11:53,498 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:12:21,118 INFO cyclemusic: capture complete
+2026-02-08 12:14:07,244 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:14:07,380 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:14:07,723 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:14:07,723 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:14:19,280 INFO cyclemusic: capture complete
+2026-02-08 12:14:19,399 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:14:19,738 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:14:19,738 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:20:26,891 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:20:27,057 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:20:27,527 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:20:27,527 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:22:14,530 INFO cyclemusic: capture complete
+2026-02-08 12:22:14,698 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:22:15,020 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:22:15,020 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:23:38,312 INFO cyclemusic: capture complete
+2026-02-08 12:23:38,478 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:23:38,873 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:23:38,873 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:23:40,444 INFO cyclemusic: capture complete
+2026-02-08 12:23:40,553 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:23:40,903 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:23:40,903 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:23:43,672 INFO cyclemusic: capture complete
+2026-02-08 12:23:43,819 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:23:44,178 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:23:44,178 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:24:07,594 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:24:07,726 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:24:08,036 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:24:08,036 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:24:27,574 INFO cyclemusic: capture complete
+2026-02-08 12:34:15,891 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:34:16,094 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:34:16,529 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:34:16,530 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:34:16,530 ERROR cyclemusic: scheduler loop failed; retrying soon
 Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 31, in main
-    missing_tracks = fetch_missing(cfg)
-                     ^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step1_base44.py", line 4, in fetch_missing
-    tracks = get_all_tracks()
-             ^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/base44_utils.py", line 12, in get_all_tracks
-    raise NotImplementedError
-NotImplementedError
-2026-02-04 03:43:14,513 INFO cyclemusic: worker exiting
-2026-02-04 03:43:37,825 INFO cyclemusic: worker starting
-2026-02-04 03:43:37,825 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 31, in main
-    missing_tracks = fetch_missing(cfg)
-                     ^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step1_base44.py", line 4, in fetch_missing
-    tracks = get_all_tracks()
-             ^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/base44_utils.py", line 12, in get_all_tracks
-    raise NotImplementedError
-NotImplementedError
-2026-02-04 03:43:42,826 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 31, in main
-    missing_tracks = fetch_missing(cfg)
-                     ^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step1_base44.py", line 4, in fetch_missing
-    tracks = get_all_tracks()
-             ^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/base44_utils.py", line 12, in get_all_tracks
-    raise NotImplementedError
-NotImplementedError
-2026-02-04 03:43:47,828 INFO cyclemusic: worker exiting
-2026-02-04 03:47:54,560 INFO cyclemusic: worker starting
-2026-02-04 03:47:54,703 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 03:47:55,122 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 03:47:55,123 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 45, in main
-    wav_paths = capture_tracks(cfg, playlist_id, missing_tracks)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 4, in capture_tracks
-    return capture_playlist(playlist_id=playlist_id, expected=len(missing_tracks), captures_dir=cfg.captures_dir)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/capture_runner.py", line 12, in capture_playlist
-    raise NotImplementedError
-NotImplementedError
-2026-02-04 03:48:00,249 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 03:48:00,568 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 03:48:00,568 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 45, in main
-    wav_paths = capture_tracks(cfg, playlist_id, missing_tracks)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 4, in capture_tracks
-    return capture_playlist(playlist_id=playlist_id, expected=len(missing_tracks), captures_dir=cfg.captures_dir)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/capture_runner.py", line 12, in capture_playlist
-    raise NotImplementedError
-NotImplementedError
-2026-02-04 03:48:05,725 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 03:48:06,121 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 03:48:06,122 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 45, in main
-    wav_paths = capture_tracks(cfg, playlist_id, missing_tracks)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 4, in capture_tracks
-    return capture_playlist(playlist_id=playlist_id, expected=len(missing_tracks), captures_dir=cfg.captures_dir)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/capture_runner.py", line 12, in capture_playlist
-    raise NotImplementedError
-NotImplementedError
-2026-02-04 03:48:11,122 INFO cyclemusic: worker exiting
-2026-02-04 05:06:06,771 INFO cyclemusic: worker starting
-2026-02-04 05:06:07,789 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 05:06:08,366 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 05:07:09,634 INFO cyclemusic: captured 0 wav files
-2026-02-04 05:07:09,634 INFO cyclemusic: analyzed 0 tracks
-2026-02-04 05:07:09,803 INFO cyclemusic: uploaded choreography for 0 tracks
-2026-02-04 05:07:09,803 INFO cyclemusic: worker exiting
-2026-02-04 05:07:57,628 INFO cyclemusic: worker starting
-2026-02-04 05:07:57,743 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 05:07:58,173 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 05:15:01,432 INFO cyclemusic: captured 2 wav files
-2026-02-04 05:15:05,610 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 49, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/2SIGobCk9dSDwioPI1FOAA.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 05:15:10,612 INFO cyclemusic: worker exiting
-2026-02-04 05:15:33,615 INFO cyclemusic: worker starting
-2026-02-04 05:15:33,775 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 05:15:34,134 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 05:18:35,813 INFO cyclemusic: captured 1 wav files
-2026-02-04 05:18:36,657 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 49, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/2SIGobCk9dSDwioPI1FOAA.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 05:18:41,659 INFO cyclemusic: worker exiting
-2026-02-04 05:19:12,714 INFO cyclemusic: worker starting
-2026-02-04 05:19:12,837 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 05:19:13,399 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 06:19:30,986 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 45, in main
-    wav_paths = capture_tracks(cfg, playlist_id, missing_tracks)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 4, in capture_tracks
-    return capture_playlist(playlist_id=playlist_id, expected=len(missing_tracks), captures_dir=cfg.captures_dir)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/capture_runner.py", line 31, in capture_playlist
-    subprocess.run(cmd, check=True, env=env, cwd="/home/appuser/cyclemusic-orchestrator")
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python3', '-m', 'capture.auto_capture_playlist_only']' returned non-zero exit status 1.
-2026-02-04 06:19:36,207 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 06:19:36,578 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 07:19:53,323 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 45, in main
-    wav_paths = capture_tracks(cfg, playlist_id, missing_tracks)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 4, in capture_tracks
-    return capture_playlist(playlist_id=playlist_id, expected=len(missing_tracks), captures_dir=cfg.captures_dir)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/capture_runner.py", line 31, in capture_playlist
-    subprocess.run(cmd, check=True, env=env, cwd="/home/appuser/cyclemusic-orchestrator")
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python3', '-m', 'capture.auto_capture_playlist_only']' returned non-zero exit status 1.
-2026-02-04 07:19:58,522 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 07:19:59,042 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 07:29:05,355 INFO cyclemusic: captured 0 wav files
-2026-02-04 07:29:05,355 INFO cyclemusic: analyzed 0 tracks
-2026-02-04 07:29:05,533 INFO cyclemusic: uploaded choreography for 0 tracks
-2026-02-04 07:29:05,533 INFO cyclemusic: worker exiting
-2026-02-04 07:42:21,457 INFO cyclemusic: worker starting
-2026-02-04 07:42:21,593 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 07:42:21,958 INFO cyclemusic: synced spotify playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:12:32,746 INFO cyclemusic: captured 4 wav files
-2026-02-04 08:12:37,120 ERROR cyclemusic: loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 49, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/1CtAzw53AIXKjAemxy4b1j.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 08:12:42,123 INFO cyclemusic: worker exiting
-2026-02-04 08:21:41,971 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 08:21:42,096 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:21:42,475 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:21:42,476 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:22:42,476 INFO cyclemusic: scheduler exiting
-2026-02-04 08:23:33,825 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 08:23:33,949 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:23:34,331 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:23:34,332 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:24:34,332 INFO cyclemusic: scheduler exiting
-2026-02-04 08:24:43,978 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 08:24:44,175 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:24:44,597 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:24:44,597 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60s
-2026-02-04 08:25:44,597 INFO cyclemusic: scheduler exiting
-2026-02-04 08:27:50,394 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 08:27:50,748 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:27:51,288 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:27:51,288 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:27:56,449 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:27:56,743 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:27:56,744 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:02,005 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:02,339 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:02,339 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:07,498 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:07,896 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:07,897 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:13,282 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:13,625 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:13,625 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:18,842 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:19,216 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:19,217 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:24,573 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:24,894 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:24,894 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:30,041 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:30,559 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:30,559 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:36,370 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:36,763 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:36,764 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:42,112 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:42,422 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:42,422 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:47,579 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:47,930 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:47,930 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:53,049 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:53,419 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:53,420 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:28:58,549 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:28:59,004 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:28:59,004 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:29:05,388 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:29:05,787 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:29:05,788 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:29:11,408 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:29:11,733 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:29:11,733 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:29:17,163 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:29:17,542 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:29:17,542 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:29:22,053 INFO cyclemusic: scheduler exiting
-2026-02-04 08:29:29,872 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 08:29:30,033 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:29:30,437 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:29:30,437 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:29:36,262 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:29:36,573 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:29:36,573 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:29:41,943 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:29:42,329 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:29:42,330 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:29:48,282 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 08:29:48,727 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 08:29:48,727 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 60.0s
-2026-02-04 08:29:52,035 INFO cyclemusic: scheduler exiting
-2026-02-04 10:52:21,781 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 10:52:22,207 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:52:22,848 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:52:22,848 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:52:28,194 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:52:28,524 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:52:28,524 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:52:33,683 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:52:34,011 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:52:34,011 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:52:39,482 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:52:39,833 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:52:39,833 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:52:44,973 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:52:45,293 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:52:45,294 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:52:50,438 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:52:50,760 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:52:50,760 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:52:55,897 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:52:56,478 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:52:56,478 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:55:25,253 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 10:55:25,377 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:55:25,791 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:55:25,791 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:55:30,916 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:55:31,222 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:55:31,222 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:55:36,423 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:55:36,833 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:55:36,833 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:55:42,021 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:55:42,454 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:55:42,454 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:55:47,590 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:55:48,007 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:55:48,008 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:55:53,159 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:55:53,485 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:55:53,485 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:55:58,626 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:55:59,048 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:55:59,048 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:04,178 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:04,504 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:04,504 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:09,674 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:09,991 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:09,991 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:15,115 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:15,448 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:15,448 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:20,587 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:20,892 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:20,892 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:26,059 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:26,454 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:26,454 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:31,612 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:32,031 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:32,032 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:37,189 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:37,659 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:37,659 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:42,836 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:43,203 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:43,203 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:48,316 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:48,659 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:48,659 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:53,813 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:54,169 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:54,169 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:56:59,317 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:56:59,659 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:56:59,659 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:04,803 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:05,274 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:05,274 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:10,442 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 10:57:10,555 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:10,855 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:10,855 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:15,981 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:16,315 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:16,315 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:21,465 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:21,768 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:21,769 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:27,851 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:28,326 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:28,327 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:33,472 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:33,944 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:33,944 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:39,102 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:39,431 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:39,432 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:44,630 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:45,018 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:45,019 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:50,153 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:50,558 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:50,558 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:57:55,746 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:57:56,040 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:57:56,041 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:01,174 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:01,506 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:01,507 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:07,130 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:07,513 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:07,513 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:12,668 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:12,974 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:12,974 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:18,095 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:18,500 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:18,500 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:23,641 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:24,074 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:24,074 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:29,223 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:29,604 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:29,604 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:34,738 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:35,131 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:35,131 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:41,332 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:41,720 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:41,720 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:51,409 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:51,929 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:51,929 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:58:57,074 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:58:57,380 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:58:57,381 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:02,522 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:02,833 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:02,834 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:08,000 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:08,446 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:08,446 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:13,566 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:13,926 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:13,926 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:19,058 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:19,735 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:19,735 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:24,934 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:25,240 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:25,241 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:30,375 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:30,737 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:30,737 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:35,888 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:36,299 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:36,299 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:41,446 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:41,866 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:41,867 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:47,032 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:47,376 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:47,376 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:52,535 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:52,917 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:52,917 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 10:59:58,075 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 10:59:58,411 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 10:59:58,411 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:03,600 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:03,968 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:03,968 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:09,129 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:09,483 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:09,483 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:14,624 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:15,136 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:15,136 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:20,295 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:20,665 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:20,665 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:25,801 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:26,124 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:26,124 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:31,282 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:31,635 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:31,635 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:36,775 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:37,089 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:37,089 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:42,229 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:42,568 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:42,568 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:47,711 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:48,043 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:48,044 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:53,193 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:53,529 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:53,529 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:00:58,649 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:00:58,991 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:00:58,991 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:04,435 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:04,806 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:04,806 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:09,932 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:10,335 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:10,335 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:17,398 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:17,701 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:17,701 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:22,907 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:23,298 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:23,298 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:28,430 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:28,558 ERROR cyclemusic: scheduler loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 43, in main
-    playlist_id = sync_playlist(cfg, missing_tracks)
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step2_spotify_playlist.py", line 13, in sync_playlist
-    return replace_processing_playlist(missing_tracks)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/spotify_playlist.py", line 66, in replace_processing_playlist
-    token = refresh_access_token()
-            ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/spotify_playlist.py", line 48, in refresh_access_token
-    resp.raise_for_status()
-  File "/home/appuser/cyclemusic-orchestrator/.venv/lib/python3.12/site-packages/requests/models.py", line 1026, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 503 Server Error: Service Unavailable for url: https://accounts.spotify.com/api/token
-2026-02-04 11:01:33,684 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:34,105 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:34,105 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:39,254 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:39,613 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:39,613 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:44,774 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:45,127 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:45,127 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:50,253 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:50,558 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:50,559 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:01:55,687 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:01:56,159 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:01:56,160 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:01,303 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:01,666 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:01,667 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:06,823 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:07,126 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:07,127 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:12,259 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:12,634 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:12,634 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:17,588 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 11:02:17,695 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:18,054 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:18,055 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:23,238 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:23,546 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:23,547 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:28,699 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:29,082 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:29,082 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:34,263 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:34,602 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:34,602 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:39,725 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:40,060 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:40,061 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:45,207 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:45,630 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:45,631 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:50,803 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:51,233 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:51,233 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:02:56,392 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:02:56,730 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:02:56,730 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:01,863 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:02,245 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:02,245 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:07,373 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:07,692 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:07,692 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:12,835 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:13,187 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:13,187 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:18,318 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:18,814 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:18,814 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:24,133 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:24,444 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:24,444 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:29,593 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:30,012 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:30,013 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:36,265 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:36,643 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:36,643 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:41,833 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:42,149 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:42,149 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:47,284 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:47,581 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:47,581 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:52,787 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:53,151 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:53,151 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:03:58,358 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:03:58,657 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:03:58,657 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:03,811 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:04,126 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:04,126 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:09,569 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:09,874 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:09,875 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:15,075 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:15,445 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:15,445 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:20,571 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:20,974 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:20,975 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:26,098 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:26,409 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:26,409 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:31,599 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:32,053 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:32,054 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:37,177 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:37,577 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:37,577 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:42,720 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:43,022 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:43,022 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:48,316 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:48,751 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:48,751 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:53,886 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:54,337 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:54,337 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:04:59,479 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:04:59,867 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:04:59,867 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:04,990 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:05,307 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:05,308 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:10,580 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:10,877 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:10,877 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:16,096 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:16,397 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:16,397 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:21,519 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:21,866 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:21,867 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:28,061 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:28,386 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:28,386 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:33,517 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:33,834 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:33,835 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:38,979 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:39,434 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:39,435 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:44,567 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:44,990 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:44,990 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:50,157 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:50,641 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:50,642 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:05:55,756 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:05:56,327 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:05:56,327 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:01,486 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:01,796 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:01,796 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:07,129 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:07,439 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:07,439 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:12,577 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:12,919 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:12,919 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:18,243 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:18,706 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:18,707 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:23,851 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:24,258 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:24,259 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:29,400 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:29,742 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:29,743 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:35,224 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:35,584 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:35,584 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:40,705 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:41,039 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:41,039 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:46,300 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:46,698 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:46,698 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:51,904 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:52,294 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:52,294 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:06:57,462 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:06:57,904 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:06:57,904 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:03,065 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:03,373 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:03,373 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:08,532 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:08,976 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:08,977 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:14,094 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:14,491 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:14,491 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:19,634 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:20,020 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:20,020 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:25,145 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:25,647 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:25,647 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:30,785 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:31,102 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:31,103 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:36,604 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:37,100 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:37,100 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:42,220 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:42,619 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:42,619 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:47,767 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:48,078 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:48,079 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:53,212 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:53,578 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:53,578 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:07:58,725 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:07:59,305 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:07:59,305 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:04,437 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:04,961 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:04,961 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:10,131 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:10,443 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:10,443 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:15,577 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:16,090 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:16,090 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:21,222 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:21,541 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:21,541 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:26,677 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:27,032 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:27,032 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:32,183 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:32,673 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:32,674 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:37,879 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:38,279 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:38,279 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:43,470 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:43,852 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:43,853 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:48,969 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:49,295 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:49,295 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:54,430 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:08:54,831 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:08:54,832 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:08:59,953 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:00,348 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:00,349 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:06,220 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:06,627 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:06,627 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:11,755 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:12,141 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:12,141 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:17,280 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:17,976 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:17,976 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:23,133 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:23,541 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:23,541 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:28,667 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:29,040 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:29,040 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:34,182 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:34,540 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:34,540 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:39,653 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:40,032 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:40,032 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:45,164 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:45,468 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:45,468 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:50,609 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:51,031 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:51,031 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:09:56,153 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:09:56,557 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:09:56,557 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:01,751 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:02,116 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:02,116 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:07,248 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:07,627 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:07,627 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:13,950 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:14,333 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:14,334 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:19,499 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:19,834 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:19,835 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:24,979 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:25,296 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:25,296 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:30,425 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:30,789 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:30,789 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:35,946 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:36,299 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:36,300 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:41,500 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:41,806 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:41,806 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:46,947 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:47,283 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:47,283 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:52,416 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:52,994 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:52,994 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:10:58,323 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:10:58,647 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:10:58,648 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:03,833 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:04,266 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:04,266 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:09,405 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:09,929 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:09,929 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:15,111 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:15,521 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:15,522 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:20,647 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:20,966 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:20,967 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:26,123 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:26,458 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:26,458 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:31,592 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:31,970 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:31,971 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:37,112 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:37,466 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:37,466 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:42,584 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:42,943 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:42,943 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:48,075 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:48,425 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:48,425 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:53,726 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:54,133 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:54,134 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:11:59,244 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:11:59,590 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:11:59,590 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:04,723 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:05,038 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:05,038 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:10,154 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:10,456 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:10,456 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:15,580 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:15,894 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:15,894 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:21,019 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:21,428 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:21,429 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:26,553 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:26,905 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:26,905 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:32,034 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:32,663 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:32,663 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:38,098 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:38,405 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:38,405 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:43,550 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:43,962 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:43,962 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:49,092 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:49,399 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:49,399 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:12:54,519 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:12:54,914 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:12:54,915 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:00,064 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:00,422 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:00,423 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:05,552 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:05,941 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:05,941 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:11,387 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:11,776 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:11,776 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:16,895 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:17,210 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:17,210 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:22,350 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:22,861 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:22,861 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:27,977 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:28,320 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:28,320 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:33,456 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:33,914 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:33,914 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:39,110 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:39,511 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:39,512 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:44,663 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:45,341 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:45,342 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:50,476 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:50,843 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:50,843 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:13:55,982 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:13:56,381 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:13:56,381 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:01,530 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:01,846 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:01,847 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:06,993 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:07,345 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:07,346 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:12,461 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:12,782 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:12,782 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:17,913 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:18,256 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:18,257 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:23,398 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:23,726 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:23,727 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:28,862 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:29,305 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:29,305 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:34,471 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:34,798 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:34,798 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:39,941 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:40,397 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:40,398 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:45,535 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:45,933 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:45,933 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:51,113 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:51,588 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:51,589 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:14:56,721 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:14:57,093 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:14:57,093 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:02,531 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:02,910 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:02,910 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:08,038 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:08,407 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:08,408 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:13,536 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:14,163 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:14,164 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:19,331 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:19,753 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:19,754 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:24,911 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:25,259 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:25,259 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:30,404 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:30,862 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:30,862 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:35,997 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:36,350 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:36,351 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:41,515 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:41,937 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:41,937 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:47,077 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:47,578 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:47,578 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:52,861 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:53,217 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:53,217 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:15:58,340 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:15:58,730 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:15:58,731 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:03,853 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:04,628 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:04,628 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:09,775 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:10,149 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:10,149 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:15,280 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:15,612 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:15,613 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:20,751 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:21,056 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:21,057 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:26,183 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:26,998 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:26,998 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:32,141 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:32,458 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:32,458 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:37,622 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:38,048 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:38,049 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:43,225 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:43,755 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:43,755 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:48,874 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:49,218 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:49,219 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:54,333 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:16:54,725 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:16:54,725 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:16:59,868 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:17:00,196 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:17:00,196 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:17:05,331 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:17:05,688 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:17:05,688 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:17:10,830 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:17:11,258 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:17:11,259 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:17:16,428 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:17:16,760 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:17:16,761 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:17:21,890 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:17:22,268 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:17:22,269 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:17:27,385 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:17:27,991 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:17:27,992 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:17:33,113 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:17:33,449 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:17:33,450 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:17:38,593 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:17:38,979 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:17:38,980 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:18:08,124 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 11:18:08,236 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:18:08,607 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:18:08,608 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:18:13,968 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:18:14,296 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:18:14,296 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:18:19,452 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:18:19,774 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:18:19,775 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:18:24,894 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:18:25,211 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:18:25,212 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:18:30,356 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:18:30,655 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:18:30,655 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:18:35,779 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:18:36,194 INFO cyclemusic: synced spotify processing playlist 1iQVYrkNNt4v9J4rV8lZa0
-2026-02-04 11:18:36,194 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:37:00,779 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 11:37:00,990 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:37:01,494 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:37:01,495 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:37:06,626 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:37:06,946 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:37:06,946 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:37:12,116 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:37:12,435 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:37:12,435 INFO cyclemusic: READY: press play on the processing playlist. Rechecking in 0.2s
-2026-02-04 11:37:14,645 INFO cyclemusic: scheduler exiting
-2026-02-04 11:38:18,485 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 11:38:18,621 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:38:19,187 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:38:19,188 INFO cyclemusic: starting capture of tracks...
-2026-02-04 11:38:38,788 INFO cyclemusic: capture complete
-2026-02-04 11:38:38,790 INFO cyclemusic: analyzing 3 wav files
-2026-02-04 11:38:39,636 ERROR cyclemusic: scheduler loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/2SIGobCk9dSDwioPI1FOAA.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 11:38:44,783 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:38:45,097 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:38:45,098 INFO cyclemusic: starting capture of tracks...
-2026-02-04 11:38:47,988 INFO cyclemusic: capture complete
-2026-02-04 11:38:47,989 INFO cyclemusic: analyzing 3 wav files
-2026-02-04 11:38:48,674 ERROR cyclemusic: scheduler loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/2SIGobCk9dSDwioPI1FOAA.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 11:38:53,786 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:38:54,141 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:38:54,141 INFO cyclemusic: starting capture of tracks...
-2026-02-04 11:38:55,755 INFO cyclemusic: capture complete
-2026-02-04 11:38:55,756 INFO cyclemusic: analyzing 3 wav files
-2026-02-04 11:38:55,919 ERROR cyclemusic: scheduler loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/2SIGobCk9dSDwioPI1FOAA.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 11:39:01,037 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:39:01,437 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:39:01,437 INFO cyclemusic: starting capture of tracks...
-2026-02-04 11:39:20,332 INFO cyclemusic: capture complete
-2026-02-04 11:39:20,332 INFO cyclemusic: analyzing 3 wav files
-2026-02-04 11:39:21,052 ERROR cyclemusic: scheduler loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/2SIGobCk9dSDwioPI1FOAA.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 11:39:26,468 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:39:26,770 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:39:26,771 INFO cyclemusic: starting capture of tracks...
-2026-02-04 11:39:53,640 INFO cyclemusic: capture complete
-2026-02-04 11:39:53,640 INFO cyclemusic: analyzing 3 wav files
-2026-02-04 11:39:54,371 ERROR cyclemusic: scheduler loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/2SIGobCk9dSDwioPI1FOAA.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 11:40:39,101 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 11:40:39,269 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 11:40:39,638 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 11:40:39,638 INFO cyclemusic: starting capture of tracks...
-2026-02-04 12:40:40,690 ERROR cyclemusic: scheduler loop failed; retrying soon
-Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 52, in main
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
     capture_tracks(cfg, playlist_id, missing_tracks)
   File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
     return runner.capture_playlist_tracks(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/capture_runner.py", line 150, in capture_playlist_tracks
-    payload = spotify_get_currently_playing(token)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/manage/spotify_api.py", line 124, in spotify_get_currently_playing
-    raise PermissionError("Spotify token expired/unauthorized")
-PermissionError: Spotify token expired/unauthorized
-2026-02-04 12:40:45,969 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 12:40:46,398 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 12:40:46,398 INFO cyclemusic: starting capture of tracks...
-2026-02-04 12:59:31,062 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 12:59:31,221 INFO cyclemusic: found 4 tracks missing choreography
-2026-02-04 12:59:31,595 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 12:59:31,596 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:08:33,481 INFO cyclemusic: capture complete
-2026-02-04 13:08:33,482 INFO cyclemusic: analyzing 14 wav files
-2026-02-04 13:08:33,484 ERROR cyclemusic: scheduler loop failed; retrying soon
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:34:21,684 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:34:22,118 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:34:22,118 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:34:22,118 ERROR cyclemusic: scheduler loop failed; retrying soon
 Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/5z6a02FGoVsXTrJ4GiVNxE.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 13:08:38,606 INFO cyclemusic: found 3 tracks missing choreography
-2026-02-04 13:08:39,061 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:08:39,062 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:08:39,949 INFO cyclemusic: capture complete
-2026-02-04 13:08:39,950 INFO cyclemusic: analyzing 14 wav files
-2026-02-04 13:08:41,873 ERROR cyclemusic: scheduler loop failed; retrying soon
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:34:27,276 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:34:27,597 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:34:27,598 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:34:27,598 ERROR cyclemusic: scheduler loop failed; retrying soon
 Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/5z6a02FGoVsXTrJ4GiVNxE.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 13:08:48,344 INFO cyclemusic: found 3 tracks missing choreography
-2026-02-04 13:08:48,801 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:08:48,801 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:34:15,403 INFO cyclemusic: capture complete
-2026-02-04 13:34:15,404 INFO cyclemusic: analyzing 14 wav files
-2026-02-04 13:34:54,601 INFO cyclemusic: capture complete
-2026-02-04 13:34:54,601 INFO cyclemusic: analyzing 14 wav files
-2026-02-04 13:37:49,978 ERROR cyclemusic: scheduler loop failed; retrying soon
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:34:32,726 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:34:33,278 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:34:33,279 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:34:33,279 ERROR cyclemusic: scheduler loop failed; retrying soon
 Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/5eU8qMd0TpaLqTGDZJaLDs.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 13:37:53,951 ERROR cyclemusic: scheduler loop failed; retrying soon
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:34:38,396 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:34:38,810 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:34:38,810 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:34:38,810 ERROR cyclemusic: scheduler loop failed; retrying soon
 Traceback (most recent call last):
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 59, in main
-    results = analyze_wavs(cfg, wav_paths)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step4_analyze.py", line 4, in analyze_wavs
-    return analyze_files(wav_paths)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/adapters/analyze_runner.py", line 33, in analyze_files
-    subprocess.run(
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['python', '/home/appuser/cyclemusic-orchestrator/src/analyze/analyze_track.py', '/home/appuser/cyclemusic-orchestrator/captures/1Jaah2tmN9Hv81A87KZ1MU.wav']' died with <Signals.SIGINT: 2>.
-2026-02-04 13:37:59,130 INFO cyclemusic: found 3 tracks missing choreography
-2026-02-04 13:37:59,557 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:37:59,557 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:38:02,016 INFO cyclemusic: found 3 tracks missing choreography
-2026-02-04 13:38:02,360 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:38:02,361 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:45:40,273 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
-2026-02-04 13:45:40,415 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 13:45:40,886 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:45:40,886 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:46:10,503 INFO cyclemusic: capture complete
-2026-02-04 13:46:10,656 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 13:46:11,078 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:46:11,078 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:46:15,292 INFO cyclemusic: capture complete
-2026-02-04 13:46:15,493 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 13:46:15,830 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:46:15,830 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:46:17,375 INFO cyclemusic: capture complete
-2026-02-04 13:46:17,943 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 13:46:18,286 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:46:18,286 INFO cyclemusic: starting capture of tracks...
-2026-02-04 13:46:20,185 INFO cyclemusic: capture complete
-2026-02-04 13:46:20,322 INFO cyclemusic: found 12 tracks missing choreography
-2026-02-04 13:46:20,651 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
-2026-02-04 13:46:20,651 INFO cyclemusic: starting capture of tracks...
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:34:43,934 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:34:44,249 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:34:44,249 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:34:44,249 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:34:49,366 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:34:49,685 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:34:49,685 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:34:49,685 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:34:54,816 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:34:55,169 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:34:55,169 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:34:55,169 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:01,099 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:01,418 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:01,418 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:01,418 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:06,893 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:07,329 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:07,330 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:07,330 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:12,454 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:12,761 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:12,761 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:12,761 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:17,887 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:18,382 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:18,382 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:18,383 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:23,495 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:23,828 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:23,828 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:23,829 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:28,947 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:29,341 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:29,341 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:29,341 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:34,479 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:34,770 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:34,770 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:34,770 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:39,896 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:40,259 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:40,260 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:40,260 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:45,385 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:45,904 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:45,904 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:45,904 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:51,029 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:51,369 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:51,369 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:51,369 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:35:56,479 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:35:56,866 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:35:56,866 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:35:56,866 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:36:40,149 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:36:40,280 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:36:40,679 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:36:40,679 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:36:40,679 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:36:45,805 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:36:46,222 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:36:46,222 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:36:46,222 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:36:51,335 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:36:51,712 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:36:51,712 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:36:51,712 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:36:56,824 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:36:57,132 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:36:57,133 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:36:57,133 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:37:02,253 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:37:02,571 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:37:02,571 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:37:02,571 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:37:07,690 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:37:08,250 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:37:08,250 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:37:08,250 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:37:13,376 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:37:13,702 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:37:13,702 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:37:13,702 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:37:18,817 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:37:19,344 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:37:19,345 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:37:19,345 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:37:24,527 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:37:24,828 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:37:24,828 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:37:24,828 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:37:29,949 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:37:30,281 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:37:30,281 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:37:30,282 ERROR cyclemusic: scheduler loop failed; retrying soon
+Traceback (most recent call last):
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/main.py", line 50, in main
+    capture_tracks(cfg, playlist_id, missing_tracks)
+  File "/home/appuser/cyclemusic-orchestrator/src/cyclemusic/steps/step3_capture.py", line 5, in capture_tracks
+    return runner.capture_playlist_tracks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'capture_playlist_tracks'
+2026-02-08 12:37:35,284 INFO cyclemusic: scheduler exiting
+2026-02-08 12:39:28,714 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:39:28,843 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:39:29,244 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:39:29,244 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:49:18,575 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:49:18,738 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:49:19,140 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:49:19,140 INFO cyclemusic: starting capture of tracks...
