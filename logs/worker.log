@@ -501,3 +501,23 @@ AttributeError: module 'cyclemusic.adapters.capture_runner' has no attribute 'ca
 2026-02-08 12:49:18,738 INFO cyclemusic: found 25 tracks missing choreography
 2026-02-08 12:49:19,140 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
 2026-02-08 12:49:19,140 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:52:44,016 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:52:44,296 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:52:44,816 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:52:44,816 INFO cyclemusic: starting capture of tracks...
+2026-02-08 12:57:36,099 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 12:57:36,231 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 12:57:36,692 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 12:57:36,692 INFO cyclemusic: starting capture of tracks...
+2026-02-08 13:01:04,985 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 13:01:05,282 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 13:01:05,701 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 13:01:05,701 INFO cyclemusic: starting capture of tracks...
+2026-02-08 13:01:20,848 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 13:01:20,983 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 13:01:21,420 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 13:01:21,421 INFO cyclemusic: starting capture of tracks...
+2026-02-08 13:02:40,010 INFO cyclemusic: scheduler starting (capture/analyze/upload are external services)
+2026-02-08 13:02:40,172 INFO cyclemusic: found 25 tracks missing choreography
+2026-02-08 13:02:40,593 INFO cyclemusic: synced spotify processing playlist 649PYwGCwhWGGbM6rioTlg
+2026-02-08 13:02:40,593 INFO cyclemusic: starting capture of tracks...
