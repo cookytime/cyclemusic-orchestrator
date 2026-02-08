@@ -1,17 +1,23 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 # ---- Config ----
 LIBRESPOT_BIN="/usr/bin/librespot"
 DEVICE_NAME="CycleMusicLibrespot"
-PULSE_SINK="librespot_sink"
 
 # ---- Environment ----
-export PULSE_SINK="${PULSE_SINK}"
-
 # ---- Run ----
+# Keep stdout drained to avoid Broken pipe when running librespot standalone.
 exec "${LIBRESPOT_BIN}" \
-  --backend pulseaudio \
+  --backend pipe \
   --name "${DEVICE_NAME}" \
-  --enable-oauth \
-  --bitrate 320
+  --bitrate 320 \
+  | ffmpeg \
+    -hide_banner \
+    -loglevel error \
+    -f s16le \
+    -ar 44100 \
+    -ac 2 \
+    -i - \
+    -f null \
+    -

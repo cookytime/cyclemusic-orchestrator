@@ -36,12 +36,38 @@ Running
 ./scripts/run_pipeline.sh
 ```
 
+- Manual step-by-step (recommended if you want to run each stage yourself):
+
+```bash
+# 1) Update the processing playlist with missing choreography tracks
+./scripts/step1_update_playlist.sh
+
+# 2) Start capture (this launches librespot with --backend pipe and waits for playback)
+./scripts/step2_capture_playlist.sh
+
+# 3) Analyze captured wavs (analysis + choreography by default)
+./scripts/step3_analyze_captures.sh
+```
+
+- Optional: if you want to split analysis and choreography into separate steps:
+
+```bash
+# Analyze only (writes *.music_map.json, skips choreography)
+ANALYSIS_ONLY=1 ./scripts/step3_analyze_captures.sh
+
+# Generate choreography from existing *.music_map.json outputs
+./scripts/step4_generate_choreography.sh
+```
+
 - Run the capture watcher (will use `.env`):
 
 ```bash
 ./scripts/watch_analyze.sh
 ./scripts/watch_upload.sh
 ```
+
+- If you run `./scripts/run_librespot.sh` directly, it drains the pipe to avoid Broken pipe errors.
+  Use it only as a keepalive; capture should be started via `step2_capture_playlist.sh`.
 
 Capture mode
 -
