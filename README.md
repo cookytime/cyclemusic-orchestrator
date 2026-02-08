@@ -66,6 +66,9 @@ ANALYSIS_ONLY=1 ./scripts/step3_analyze_captures.sh
 ./scripts/watch_upload.sh
 ```
 
+- If you run `./scripts/run_librespot.sh` directly, it drains the pipe to avoid Broken pipe errors.
+  Use it only as a keepalive; capture should be started via `step2_capture_playlist.sh`.
+
 Capture mode
 -
 - This project uses a pipe capture via `librespot --backend pipe` and `ffmpeg` by default. `LIBRESPOT_PIPE` is enabled by default and pipe capture is the only supported capture mode.
