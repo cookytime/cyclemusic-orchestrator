@@ -800,11 +800,18 @@ class TrackAnalyzer:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python analyze_track.py <path_to_audio>")
-        sys.exit(1)
+    import argparse
 
-    file_path = sys.argv[1]
+    parser = argparse.ArgumentParser(description="Analyze a track and optionally generate choreography.")
+    parser.add_argument("file_path", help="Path to a wav file to analyze.")
+    parser.add_argument(
+        "--analysis-only",
+        action="store_true",
+        help="Only write the music map; skip choreography generation.",
+    )
+    args = parser.parse_args()
+
+    file_path = args.file_path
     if not os.path.exists(file_path):
         print("File not found.")
         sys.exit(1)
@@ -819,6 +826,10 @@ if __name__ == "__main__":
         json.dump(result, f, indent=2, cls=NumpyEncoder)
 
     print(f"Analysis complete. Output written to {output_file}")
+
+    if args.analysis_only:
+        print("Analysis-only mode enabled; skipping choreography generation.")
+        sys.exit(0)
 
     load_dotenv(REPO_ROOT / ".env")
 

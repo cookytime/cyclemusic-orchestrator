@@ -109,6 +109,8 @@ def start_librespot_pipe(track_id: str, wav_path: Path, duration_s: float, devic
         "ffmpeg",
         "-hide_banner",
         "-loglevel", "error",
+        "-fflags", "+discardcorrupt",
+        "-err_detect", "ignore_err",
         "-f", "s16le",
         "-ar", "44100",
         "-ac", "2",
@@ -121,6 +123,18 @@ def start_librespot_pipe(track_id: str, wav_path: Path, duration_s: float, devic
     librespot_proc = subprocess.Popen(cmd_librespot, stdout=subprocess.PIPE)
     ffmpeg_proc = subprocess.Popen(cmd_ffmpeg, stdin=librespot_proc.stdout)
     return librespot_proc, ffmpeg_proc
+
+
+def stop_process(proc: subprocess.Popen | None, name: str) -> None:
+    if proc is None or proc.poll() is not None:
+        return
+    try:
+        proc.terminate()
+        proc.wait(timeout=5)
+    except subprocess.TimeoutExpired:
+        proc.kill()
+    except Exception as e:
+        print(f"[capture] failed to stop {name}: {e}", flush=True)
 
 
 def start_librespot_keepalive(device_name: str = "CycleMusicLibrespot"):
@@ -137,6 +151,8 @@ def start_librespot_keepalive(device_name: str = "CycleMusicLibrespot"):
         "ffmpeg",
         "-hide_banner",
         "-loglevel", "warning",
+        "-fflags", "+discardcorrupt",
+        "-err_detect", "ignore_err",
         "-f", "s16le",
         "-ar", "44100",
         "-ac", "2",
@@ -274,6 +290,7 @@ def main() -> int:
                     if current_wav and current_wav.exists() and current_wav.stat().st_size < 100_000:
                         print(f"[capture] ⚠️ tiny capture: {current_wav.name}", flush=True)
                     
+                    stop_process(librespot_proc, "librespot")
                     ffmpeg_proc = None
                     librespot_proc = None
                     
